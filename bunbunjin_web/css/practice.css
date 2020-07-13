@@ -1,0 +1,67 @@
+@charset "utf-8";
+body {
+    margin: 0;
+    padding: 0;
+    height: 0;
+}
+#index {
+    height: 100px;
+    background-image: url(../image/DSC_0157.JPG);
+    background-color: rgba(255,255,255,0.5);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+#logo {
+    margin-top: 100px;
+    opacity: 0.98;
+}
+header {
+    margin-top: 0%;
+    padding: 0;
+    background-color: #c4dce8;
+
+}
+header h1{
+    margin-top: 0%;
+    width: auto;
+
+}
+#SNS {
+    font-size: 23px;
+    color: #525252;
+    margin: auto;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+    border: 1px solid #525252;
+    width: 350px;
+    height: 350px;
+}
+#name{
+    font-size: 40px;
+    margin-top: 0px;
+}
+#name h1{
+    display: inline-block;
+    border-bottom: 10px solid #5b80b2;
+}
+#LEFT {
+    margin-top: 0%;<!-- ここを書き直してたら横のアイコン含めてるやつを上下できる-- >
+    height: 1000%;
+    width: auto;
+    display: inline-block;
+    border-right: 2px solid #777777;
+}
+
+#Do_it{
+    margin-top: 8%;
+    font-size: 23px;
+    float: right;
+}
+#Do_it blockquote{
+    float: right;
+    size: 70px;
+}
